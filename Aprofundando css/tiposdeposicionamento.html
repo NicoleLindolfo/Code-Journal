@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Posicionamento</title>
+</head>
+<body>
+ 
+<h1>Static, Relative, Absolute, Fixed e Stick</h1>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+
+        div {
+            /* position: relative;
+            top: 20rem;
+            left: 20rem;
+            right: ;
+            bottom: ; */
+
+            position: relative;
+            height: 200rem;
+            width: 20em;
+            background-color: green;
+            color: blue
+
+        }
+
+        
+        a:first-child {
+            color: inherit;
+            position: absolute;
+            bottom: 0rem;
+            left: 13.5rem;
+            
+            
+        }
+
+        p {
+            position: fixed;
+            left: 30rem;
+            top: 0;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 2rem;
+        }
+    </style>
+    <div>
+        <a href="">link</a>
+        <a href="">acesse meu link</a>
+        <p class="sticky">textinho bla bla bla bla</p>
+    </div>
+    
+    <p>paragrafo</p>
+    
+</body>
+</html>

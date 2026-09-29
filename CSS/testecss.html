@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TESTES</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CSS (Seletor TAG)</h1>
+
+    <p id="p-id">Seletor ID</p>
+
+    <h2>bloco 1</h2>
+    <p id="p1">teste <span>id</span></p>
+    <p id="p2">teste id</p>
+    <p id="p3">teste id</p>
+    <hr />
+    <!-- <dl>
+      Quero colocar a mesma formatação em todos os p do bloco 1
+      <dt>Forma ruim:</dt>
+      <dd>
+        Um # para cada paragrafo + a formatação de cada paragrafo.. No css
+        ficaria longo e trabalhoso, teria que abrir um # para cada paragrafo com
+        o nome da id do e cada p + a formataçao para cada p.
+        <br />
+        OBS: todo id é único, não pode ter o mesmo nome!
+      </dd>
+      <dt>Forma boa:</dt>
+      <dd>
+        Um # para todos os paragrafos. Mas no # teria que escrever o nome da id
+        de cada paragrafo e então entre as chaves ({}) coloca a formatação e
+        todos os p receberam. Mesmo assim é trabalhoso escrever o nome de cada
+        id no # e no código html. Fica asssim:
+        <b>#p1, #p2, #p3 { formatação }</b>
+      </dd>
+    </dl> -->
+
+    <p class="p-class">Seletor CLASS</p>
+
+    <h2>bloco 2</h2>
+    <p class="p">teste classes</p>
+    <p class="p">teste classes</p>
+    <p class="p">teste classes</p>
+
+    <!-- <dl>
+      <dt>Colocando a mesma formatação em todos os p do bloco 2:</dt>
+      <dd>
+        <ol>
+          <li>
+            coloco uma class para cada paragrafo, mas com o mesmo nome. Ex:
+            class="p" para todos.
+          </li>
+          <li>
+            no css coloco o <b>.</b> que é referente a class e o nome da class,
+            nesse caso p, ficaria assim: <b>.p { formatação }</b>
+          </li>
+          <li>
+            e então todos os p do bloco 2 ganham a mesma formataçao rapidamente
+          </li>
+        </ol>
+      </dd>
+    </dl> -->
+    <hr />
+    <h2>SPAN</h2>
+    <p>
+      Lorem Ipsum is <span>simply dummy</span> text of the printing and
+      typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    </p>
+    <span>
+      text ever <span class="span-class">since the 1500s</span>, when an unknown
+      printer took a galley of type and scrambled it to make a type specimen
+      book.
+    </span>
+
+    <p>texto <span class="p-s-c">qualquer bla</span> bla bla bla hhhhkkkk</p>
+    <span>um span solo</span>
+  </body>
+</html>

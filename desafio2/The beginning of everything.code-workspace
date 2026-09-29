@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "../../../Downloads/The beginning of everything",
+    },
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "desafio2",
+    "liveServer.settings.port": 5502,
+  },
+}
