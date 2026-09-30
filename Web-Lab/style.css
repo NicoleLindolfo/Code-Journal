@@ -22,12 +22,15 @@
 
     strong {font-weight: 600;}
 
-    /* .span-white-600w {
-    color;#fff;
-    font-weight:600
-    } */
+     /* .span-white-600w {
+    color: #fff;
+    font-weight:600;
+    }  */
 
-    /* .h2-white {color:#fff} */
+    /* .h2-white {
+        color: #fff;
+        font-weight: 400;
+    }   */
 
     /* !SECTION - CABEÇALHO */
 
@@ -89,3 +92,83 @@ h1 {
     font-weight: 700;
 }
 
+/* !SECTION - O QUE FALAM */
+
+.link-white {
+/* color: #fff; */
+font-weight: 700;
+font-size: 24px;
+text-decoration: none;
+}
+
+/* !SECTION - NA MÍDIA */
+
+
+
+/* !SECTION - BLOG */
+.link-blog {
+color: #f7a70c;
+text-decoration: none;
+font-size: 13.3px;
+font-weight: 600;
+}
+
+.p-13px {
+    font-size:13.3px;
+}
+
+.a-23px-blog {
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* !SECTION - COMO A HASHTAG PODE AJUDAR */
+
+.ul-19px {
+    font-size: 19.2px;
+}
+
+.links-section-help {
+    text-decoration-line:underline ;
+    color: #008ff7;
+    font-weight: 600;
+}
+
+/* !SECTION - FREE MINICURSO */
+
+.label-white {
+    font-weight: 400;
+    /* color: #fff; */
+}
+
+.button-golden {
+    color: #fff;
+    background-color: #ffba29 ;
+}
+
+/* !SECTION - FOOTER */
+
+.p-23px-600w {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.p-19px-600w {
+    font-size: 19.2px;
+    font-weight: 600; }
+
+.p-16px-600w {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.links-footer {
+    color: #1A77A4;
+
+}
+
+.button-blue {
+    color: #fff;
+    background-color: #1a77a4;
+}
