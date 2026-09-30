@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md.3 Desafio1</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWgvrnqM34BdbXbQk6dXvC-Ckdp-oluA4wXg&s"
+        alt="logo da mdn web docs"
+        width="150px"
+      />
+
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/conflicting/Learn_web_development/Core/Structuring_content_0e54a30456ec839b11e09e00670da56cde64ba985c2eb3da9b7805515585e95d"
+              >HTML</a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Um pouco sobre o HTML e CSS</h1>
+      <h2>HTML</h2>
+      <article>
+        <p>
+          <abbr
+            style="text-decoration: underline"
+            title="HiperText Markup Language"
+            >HTML
+          </abbr>
+          (abreviação para a expressão inglesa HyperText Markup Language, que
+          significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de
+          marcação utilizada na construção de páginas na Web. Documentos HTML
+          podem ser interpretados por navegadores. Essa linguagem foi criada no
+          ano de <time datetime="1991">1991</time>
+        </p>
+        <p>
+          Segundo a
+          <cite
+            ><a href="https://developer.mozilla.org/en-US/"
+              >Documentação da Mozilla:</a
+            ></cite
+          >
+        </p>
+
+        <p>
+          Existem seis elementos de título — <code>&lt;h1&gt;</code>
+          <code>&lt;h2&gt;</code> <code>h3&gt;</code>, <code>&lt;h4&gt;</code>,
+          <code>&lt;h5&gt;</code>, e <code>&lt;h6&gt;</code>. Cada elemento
+          representa um nível diferente de conteúdo no documento;
+          <code>&lt;h1&gt;</code> representa o título principal,
+          <code>&lt;h2&gt;</code> representa subtítulos,
+          <code>&lt;h3&gt;</code> representa sub-subtítulos, e assim por diante.
+        </p>
+
+        <p>
+          Além disso, no mesmo texto eles informam que
+          <q>
+            Preferencialmente, você deve usar apenas um
+            <code>&lt;h1&gt;</code> por página — esse é o título do nível
+            superior e todos os outros ficam abaixo dele, na hierarquia.
+          </q>
+        </p>
+
+        <section>
+          <h2>CSS</h2>
+          <p>
+            Uma linguagem muito utilizada em conjunto com o HTML é o
+            <abbr title="Cascading Style Sheets ">CSS</abbr>. Essa, por usa vez,
+            é uma linguagem utilizada para estilização de páginas WEB. Um
+            exemplo de código em CSS pode ser visto abaixo:
+          </p>
+
+          <pre>
+          <code>
+p { 
+color: blue; 
+text-weight: bold; 
+}
+          </code>
+        </pre>
+
+          <p>
+            No código acima, utilizamos o seletor <var>p</var> para selecionar
+            todos os elementos de parágrafo da página e vamos deixá-los com a
+            cor azul e com uma fonte em negrito.
+          </p>
+        </section>
+
+        <section>
+          <h2>Resumo</h2>
+          <p>
+            Confira a tabela abaixo com a abreviação, nome e principal foco da
+            linguagem:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Abreviação</th>
+                <th>Nome</th>
+                <th>Foco</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>Construção de Páginas</td>
+                <td>Estilização de Páginas</td>
+              </tr>
+
+              <tr>
+                <td>CSS</td>
+                <td>Cascading Style Sheets</td>
+                <td>Estilização de Páginas</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Para mais detalhes</h2>
+          <iframe
+            src=" https://pt.wikipedia.org/wiki/HTML"
+            frameborder="0"
+          ></iframe>
+        </section>
+      </article>
+
+      <!-- <aside></aside> -->
+      <section>
+        <h2>Newsletter</h2>
+        <p>
+          Você pode se inscrever para saber mais preenchendo seu nome e e-mail
+          no formulário abaixo:
+        </p>
+
+        <form action="">
+          <label for="name">Nome</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Preencha seu nome"
+            pattern="[a-zA-Z]+"
+            required
+            title="Apenas letras"
+          />
+          <label for="email">E-mail</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Preencha seu e-mail"
+          />
+          <button type="submit">Enviar!</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Informações de contato</h2>
+      <section>
+        <address>
+          <p>
+            Facebook:
+            <a href="https://facebook.com/mozilla"
+              >https://facebook.com/mozilla</a
+            >
+          </p>
+          <p>
+            Twitter:
+            <a href="https://twitter.com/mozilla"
+              >https://twitter.com/mozilla</a
+            >
+          </p>
+        </address>
+      </section>
+    </footer>
+  </body>
+</html>
