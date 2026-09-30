@@ -1,0 +1,40 @@
+* {
+    /* padding: 0;
+    margin: 0; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.8rem
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+a {
+    font-size: 2.4rem;
+}
+
+ nav ul {
+    font-size: 1.4rem;
+    list-style:none;
+}
+
+nav ul a{
+    color: rgb(0, 60, 255);
+    text-decoration: none;
+
+}
+
+a:hover,:active {
+    color: rgb(0, 255, 4);
+}
+
+div{
+    display: inline-block;
+    /* gap: ; */
+}
