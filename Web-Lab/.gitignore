@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+.env
+*.log
+
+textoCV
+teste.html
+Testes/
+desafio2/
+Desafio1/
+CSS
+Aprofundando css/
+Aprofundando html/
+
+
