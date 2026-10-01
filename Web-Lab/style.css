@@ -1,63 +1,184 @@
 * {
-    font-family: Mountserrat, sans-serif;
-    color: #404040;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
-    p {
-        font-size: 19.2px;
+
+html {
+    font-size: 62.5%;
+}
+
+body {font-family: Mountserrat, sans-serif;
+color: #404040;
+font-size: 1.6rem;}
+
+p {
+        font-size: 1.9rem;
         font-weight: 400;
     }
 
     h2 {
-        font-size: 27.6px;
+        font-size: 2.7rem;
         font-weight: 400;
+        line-height: 1.1;
     }
 
     h3{
-        font-size: 23px;
+        font-size: 2.3rem;
     }
     .p-16px-400w {
-    font-size:16px;
-    font-weight:400;
+        font-size:1.6rem;
+        font-weight:400;
     } 
-
+    
     strong {font-weight: 600;}
-
-     /* .span-white-600w {
-    color: #fff;
-    font-weight:600;
-    }  */
-
-    /* .h2-white {
+    
+    /* .span-white-600w {
         color: #fff;
-        font-weight: 400;
-    }   */
+        font-weight:600;
+        }  */
+        
+        /* .h2-white {
+            color: #fff;
+            font-weight: 400;
+            }   */
+            
+            .buttons-all {
+                font-size: 2.4rem;
+                font-weight: 700;
+                text-decoration: none;
+                border-radius: 3rem;
+                padding: 0.82rem  2.5rem;
+                display: inline-block;
+                color: #ffffff;
+                box-shadow: 0 0.21rem 0.4 rgba(0, 0, 0, 0.15.8);
+                
+            }
+            
+            ul {
+                list-style: none;
+            }
 
-    /* !SECTION - CABEÇALHO */
+/* !SECTION - CABEÇALHO */
+.cabeçalho {
+    padding:1.6rem 3.12rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
+    /* position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white; */
+    
+}
+
 
 .links-cabeçalho a  {
     color: #112e61;
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform:uppercase;
     text-decoration: none;
     font-weight: 600;
 }
 
+.links-cabeçalho a:hover, 
+.links-cabeçalho a:active {
+    color: #f60;
+}
+
+.links-cabeçalho.ul-filhos::after {
+    content:"\2bc6";
+    
+}
+
+
+
 /* !SECTION - HERO */
 
-h1 {
-    font-size: 35px;
-    font-weight: 600;
+.section {
+    padding: 9.54rem 2rem;
+}
 
+.section-hero {
+    background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-01.webp);
+    background-position:50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-all {
+    padding: 9.54rem;
+    max-width: 0 auto;
+    
+}
+
+h1 {
+    font-size: 3.32rem;
+    font-weight: 600;
+    line-height: 1.3;
+    
+}
+
+hero-p {
+    line-height: 1.3;
 }
 
 .hero-links {
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
-    /* color: #ffffff; */
+    border-bottom: solid 0.4rem #993c38  ;
+    border-right: solid 0.4rem #993c38  ;
+    background-image: linear-gradient(180deg, #ff645e, #ff9253);
+
+}
+
+.hero-links:hover {
+    background-color: #ff9253;
+    border-bottom: solid 0.4rem #ff9253;
+    border-right: solid 0.4rem #ff9253;
+
+}
+
+.iframe-video {
+aspect-ratio:16/9 ;
+width: 42rem;
+height: auto;
+border-radius: 2.5rem;
 }
 
 /* !SECTION - CONTEÚDOS FREE*/
+
+.image-conteudos-free {
+    width: 41rem;
+
+}
+
+.caixa-cursos-free {
+    box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.15);
+    border-radius: 2.5rem;
+    padding: 2rem;
+    position: absolute;
+    
+
+}
+
+.container-caixas-free {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    transform: translateX(3rem); /* desloca o conjunto um pouco para a direita */
+    flex-wrap: wrap;
+    max-width: calc(100% - 4rem);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.caixa-cursos-free {
+    position: relative;
+}
 
 .section-free {
     color: #7a40be;
@@ -65,16 +186,80 @@ h1 {
 }
 
 .h3-section-free {
-    font-size:23px ;
+    font-size:2.3rem ;
     font-weight: 700;
-    /* color: #fff; */
+    color: #fff;
 }
 
 .text-decoration-none {
     text-decoration: none;
-    font-size: 19px;
+    font-size: 1.92rem;
+    display: inline-block;
+    padding: 0.42rem 1.6rem;
+    background-color: #e7e7e7;
+    border-radius: 2.5rem;
+    margin: 0.5rem;
+    border: 0.2rem solid #c8c8c8;
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0.4rem 0.2 rgba(0,0,0,0.15);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: inherit;
+    
+
 }
 
+.text-decoration-none img {
+    width: 1.8rem;
+}
+
+.text-decoration-none:hover {
+    text-decoration: underline;
+    color: #008ff7;
+}
+
+.section-conteudos-free {
+    background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp);
+    background-position:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.imagens-links-free {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.8rem;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+    box-shadow: 0 0.21rem 0.4 rgba(0,0,0,0.15);
+}
+
+.imagens-links-free img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.caixa-h3 {
+    background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 0.42rem 1.16rem;
+    color: white;
+    transform: rotate(-3deg);
+        box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
+
+
+}
 /* !SECTION - DIFERENCIAIS */
 
 /* .p-white {
@@ -97,7 +282,7 @@ h1 {
 .link-white {
 /* color: #fff; */
 font-weight: 700;
-font-size: 24px;
+font-size: 2.4rem;
 text-decoration: none;
 }
 
@@ -109,16 +294,16 @@ text-decoration: none;
 .link-blog {
 color: #f7a70c;
 text-decoration: none;
-font-size: 13.3px;
+font-size: 1.3rem;
 font-weight: 600;
 }
 
 .p-13px {
-    font-size:13.3px;
+    font-size:1.3rem;
 }
 
 .a-23px-blog {
-    font-size: 23px;
+    font-size: 2.3rem;
     font-weight: 600;
     text-decoration: none;
 }
@@ -126,7 +311,7 @@ font-weight: 600;
 /* !SECTION - COMO A HASHTAG PODE AJUDAR */
 
 .ul-19px {
-    font-size: 19.2px;
+    font-size: 1.9.rem;
 }
 
 .links-section-help {
@@ -150,16 +335,16 @@ font-weight: 600;
 /* !SECTION - FOOTER */
 
 .p-23px-600w {
-    font-size: 23px;
+    font-size: 2.3rem;
     font-weight: 600;
 }
 
 .p-19px-600w {
-    font-size: 19.2px;
+    font-size: 1.9rem;
     font-weight: 600; }
 
 .p-16px-600w {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 
